@@ -1,10 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+
 body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inconsolata', monospace;
+  color: #e0e0e0;
+  background-color: #18181b;
+}
+
+#header {
+  background-color: #121214;
   margin: 0;
   padding: 0;
 }
 
-#header {
-  background-color: aqua;
+#header h1,
+#header h3 {
+  margin: 0;
+  padding-left: 8px;
+  color: #ff5d8f;
+  font-family: 'Inconsolata', monospace;
 }
 
 .flex {
@@ -31,12 +46,30 @@ body {
   flex: 1;
   min-width: 120px;
   font-weight: bold;
+  color: #fff;
 }
 
-.row input {
+.row input,
+.row textarea {
   flex: 2;
   min-width: 0;
   width: 100%;
   box-sizing: border-box;
   margin-left: 8px;
+  background: #23232b;
+  color: #e0e0e0;
+  border: 1px solid #333;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+button {
+  background-color: #ff5d8f;
+  color: #121214;
+  border: none;
+  cursor: pointer;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+button:hover {
+  background-color: #ff5d8f;
 }
