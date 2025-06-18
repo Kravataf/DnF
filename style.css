@@ -78,3 +78,10 @@ button {
 button:hover {
   background-color: #ff5d8f;
 }
+
+.img-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 16px;
+}
