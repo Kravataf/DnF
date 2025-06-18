@@ -1,6 +1,17 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .flex {
   display: flex;
+  justify-content: space-evenly;
 }
+
 .flex > * {
   flex: 1;
+}
+
+#header {
+  background-color: aqua;
 }
