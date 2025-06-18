@@ -3,15 +3,40 @@ body {
   padding: 0;
 }
 
+#header {
+  background-color: aqua;
+}
+
 .flex {
   display: flex;
   justify-content: space-evenly;
+  align-items: flex-start;
+  width: 100%;
+  box-sizing: border-box;
 }
 
-.flex > * {
+.flex > div {
   flex: 1;
+  padding: 0 16px;
 }
 
-#header {
-  background-color: aqua;
+.row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  max-width: 350px;
+}
+
+.row label {
+  flex: 1;
+  min-width: 120px;
+  font-weight: bold;
+}
+
+.row input {
+  flex: 2;
+  min-width: 0;
+  width: 100%;
+  box-sizing: border-box;
+  margin-left: 8px;
 }
