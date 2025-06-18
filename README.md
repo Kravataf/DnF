@@ -1,4 +1,4 @@
-# Dungeons and ~Furries~
+# DnF
 Character creator for homebrew DnD (because dnd beyond sucks at this)
 
 The website can be entered through this link -> https://kravataf.github.io/DnF/
