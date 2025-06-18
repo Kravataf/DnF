@@ -44,6 +44,7 @@ body {
   align-items: center;
   margin-bottom: 8px;
   max-width: 350px;
+  text-align: right;
 }
 
 .row label {
